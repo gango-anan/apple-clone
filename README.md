@@ -17,7 +17,7 @@ This repository contains a clone home page of apple.com home page of 2014
 
 ## apple.com home page Link
 
-[Apple.com clone home page Link](https://gango-anan.github.io/apple-clone/)
+[Apple.com clone home page Link](https://gango-anan.github.io/apple-clone/.)
 
 ## Getting Started
 
@@ -44,5 +44,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/gango-anan/apple-clone/blob/space-ripples-page/LICENSE) licensed.
+This project is [MIT](https://github.com/gango-anan/apple-clone/blob/apple-home-page/LICENSE) licensed.
 
