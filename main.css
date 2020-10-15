@@ -1,40 +1,36 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html {
-  margin: 0;
-  padding: 0;
-  width: auto;
-  position: relative;
-}
-
 body {
   width: 100%;
-  margin: 0;
   padding: 0;
-  position: relative;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .main-header {
-  width: 85%;
-  position: absolute;
-  height: 50px;
-  top: 57px;
-  left: 15%;
+  width: 100%;
+  height: 78vh;
+  background-image: url("images/main-background-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 0 bottom 0;
+  background-origin: border-box;
+  background-clip: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-nav-bar {
   background: linear-gradient(to top, #767676 0%, #767676 50%, rgba(77, 77, 77, 1) 60%, rgba(80, 80, 80, 1) 70%, rgba(77, 77, 77, 0.8) 80%);
-  height: 37px;
-  width: 80%;
+  height: 2.3125rem;
+  width: 70%;
   border-radius: 4px;
+  margin-top: 5rem;
 }
 
 .menu-bar {
@@ -71,6 +67,10 @@ body {
   background: linear-gradient(to bottom, rgba(66, 66, 66, 1) 0%, rgba(66, 66, 66, 1) 50%, rgba(55, 55, 55, 1) 51%, rgba(60, 60, 60, 1) 60%, rgba(55, 55, 55, 0.8) 100%);
 }
 
+.logo:hover {
+  border-radius: 4px;
+}
+
 .search {
   width: 15%;
 }
@@ -90,29 +90,39 @@ body {
   color: white;
 }
 
-.main-content {
-  width: 100%;
-  height: 31.25rem;
-  background-image: url("images/main-background-img.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left 50% bottom 0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.header-contents a {
+  text-decoration: none;
+  color: white;
+}
+
+.verse {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 1.625rem;
+}
+
+.something-to-share {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: lighter;
 }
 
 .your-verse {
-  margin-top: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 1.8rem;
 }
 
-.featured-ads {
+.main-content {
   width: 100%;
   display: flex;
+  margin: 0 auto;
 }
 
 .promo-img {
+  display: inline-block;
   width: 25%;
 }
 
