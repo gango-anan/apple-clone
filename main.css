@@ -151,6 +151,7 @@ body {
   list-style: none;
   display: flex;
   align-items: baseline;
+  margin-left: 3.125rem;
 }
 
 .footer-list li {
