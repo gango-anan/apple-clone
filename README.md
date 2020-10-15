@@ -32,7 +32,7 @@ This repository contains a clone home page of apple.com home page of 2014
 - Name: GALIWANGO ANANIYA 
 - GitHub: [@gango-anan](https://github.com/gango-anan)
 - Twitter: [@gango_anan](https://twitter.com/gango_anan)
-- LinkedIn: [galiwango-ananiya-0800821b4](https://linkedin.com/galiwango-ananiya-0800821b4)
+- LinkedIn: [galiwango-ananiya-0800821b4](https://linkedin.com/galiwango-ananiya-0800821b4/)
 
 ## Show your support
 
